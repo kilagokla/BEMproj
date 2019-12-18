@@ -1,0 +1,158 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	height: 100%;	
+	font-family: 'Cormorant Infant', serif;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #000000;
+}
+
+.full-content {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-header__info {
+	font-family: "Arizonia", Arial, sans-serif;
+	text-align: center;
+	background-image: url("../img/mountings.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.main-header {
+	margin:0;
+	padding: 0;
+}
+
+.author-name {
+	font-size: 120px;
+	line-height: 121px;
+	margin: 0;
+	padding-top: 80px;
+
+}	
+
+.author-profession {	
+	font-size: 60px;
+	line-height: 62px;
+	margin: 0px;
+	padding-bottom: 80px;
+}
+
+.main-container {
+	flex-grow: 1;
+}
+
+.main-navigation {
+	background-color: #000000;
+	color:#ffffff;
+	text-align: center;
+}
+
+.main-navigation__list {	
+	display: flex;
+	align-items: stretch;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navigation-item {	
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navigation-link {	
+	font-size: 18px;	
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.navigation-link:hover{
+	text-shadow: 0 0 30px #ddc1ae;
+	color: #ddc1ae;
+}
+
+.section-title {
+	font-size: 24px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.author-intro {
+	background-color: #ddc1ae;
+	color: #000000;
+	text-align: center;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.author-intro__info {	
+	font-family: 'Cormorant Infant', serif;
+	text-align: center;
+	margin: auto 40px;
+	font-size: 20px;
+}
+
+.author-intro__img {
+	height: 450px;
+	width: auto;
+}
+
+.list_without-points {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.list-item__link {
+	text-decoration: none;
+	color: #000000;
+}
+
+.countries-navigation {
+	padding: 0px 30px;
+}
+
+.countries-navigation__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.country-item {
+	padding: 20px;
+}
+
+.country-item__img {
+	height: 50px;
+	width: auto;
+	padding-right: 5px;
+}
+
+.main-footer {
+	height: 60px;
+	background-color: #000;
+}
+
+.main-footer__list {
+	width: 110px;
+	margin: auto;
+	padding-top: 15px;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.social-img {
+	height: 30px;
+	width: auto;
+}
+
+.hide {
+	display: none;
+}
