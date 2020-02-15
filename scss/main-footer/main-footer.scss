@@ -1,0 +1,11 @@
+.main-footer {
+	height: 60px;
+	background-color: #000;
+	&__list {
+		width: 110px;
+		margin: auto;
+		padding-top: 15px;
+		display: flex;
+		justify-content: space-between;	
+	}
+}

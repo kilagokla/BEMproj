@@ -1,0 +1,19 @@
+.author-intro {
+	background-color: #ddc1ae;
+	color: $color-font;
+	text-align: center;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	align-items: center;
+	&__info {	
+		font-family: 'Cormorant Infant', serif;
+		text-align: center;
+		margin: auto 40px;
+		font-size: 20px;
+	}
+	&__img {
+		height: 450px;
+		width: auto;		
+	}	
+}
