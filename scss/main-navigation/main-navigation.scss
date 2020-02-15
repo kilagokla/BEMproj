@@ -1,0 +1,11 @@
+.main-navigation {
+	background-color: #000000;
+	color:#ffffff;
+	text-align: center;
+	&__list {	
+		display: flex;
+		align-items: stretch;
+		justify-content: space-around;
+		align-items: center;
+	}
+}

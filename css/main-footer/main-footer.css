@@ -1,0 +1,9 @@
+.main-footer {
+  height: 60px;
+  background-color: #000; }
+  .main-footer__list {
+    width: 110px;
+    margin: auto;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between; }
